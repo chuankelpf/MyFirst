@@ -19,6 +19,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:[[RootViewController alloc] init] ];
     self.window.rootViewController = navc;
+    /**
+     *  测试的 ,请不要见怪
+     */
     [self.window makeKeyAndVisible];
     return YES;
 }
