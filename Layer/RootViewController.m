@@ -20,6 +20,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"你好世界你是最美的");
+      NSLog(@"你好世界你是最美的22");
 }
 - (IBAction)wwww:(UIButton *)sender {
     CustomerView *cust = [[CustomerView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
